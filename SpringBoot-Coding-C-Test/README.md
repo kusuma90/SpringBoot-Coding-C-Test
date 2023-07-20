@@ -1,7 +1,7 @@
 # SpringBoot-Coding-C-Test
 
-Build: ./gradlew build
-Run: java -cp build/classes/java/main ctest.RewardsMainApp
+Build: ./gradlew build  #To build project
+Run: java -cp build/classes/java/main ctest.RewardsMainApp # To run application
 
 Testing in Postman:
 
