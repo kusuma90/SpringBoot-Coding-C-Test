@@ -1,11 +1,15 @@
 # Compiled class file
+*.com
 *.class
-*.lock
-*.bin
-*.xml
+*.dll
+*.exe
+*.o
+*.dex
 
 # Log file
 *.log
+*.sqlite
+*.lock
 
 # BlueJ files
 *.ctxt
@@ -14,11 +18,16 @@
 .mtj.tmp/
 
 # Package Files #
+*.7z
+*.dmg
+*.gz
+*.iso
 *.jar
 *.war
 *.nar
 *.ear
 *.zip
+*.tar
 *.tar.gz
 *.rar
 *.idea
@@ -26,3 +35,18 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+#IDE files #
+*xcuserdata*
+gen/
+out/
+bin/
+releases/
+.idea/
+.gradle/
+.metadata/
+.settings/
+*.xml
+build/
+
+.githooks
