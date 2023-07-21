@@ -16,6 +16,16 @@ public class TransactionDetails {
     private BigDecimal transactionAmount;
     private LocalDate transactionDate;
 
+    public TransactionDetails(long id, BigDecimal amounnt, LocalDate date) {
+        id=id;
+        amounnt =amounnt;
+        date=date;
+    }
+
+    public  TransactionDetails(){
+
+    }
+
     public Long getId() {
         return id;
     }
